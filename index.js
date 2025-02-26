@@ -1,3 +1,7 @@
-// run `node index.js` in the terminal
+const express = require('express');
 
-console.log(`Hello Node.js v${process.versions.node}!`);
+const app = express();
+
+app.set('view engine', 'ejs');
+
+
